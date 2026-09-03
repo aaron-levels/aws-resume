@@ -1,0 +1,71 @@
+body {
+    font-family: 'CMU Serif', 'Computer Modern', 'Times New Roman', serif;
+    font-size: 9.5pt;
+    line-height: 1.15;
+    color: #000;
+    margin: 0 auto;
+    padding: 0.35in 0.5in;
+    max-width: 8.5in;
+}
+
+h1 {
+    font-size: 18pt;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 2px 0;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 9.5pt;
+    margin-bottom: 8px;
+}
+
+.summary {
+    font-size: 9.5pt;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+.section-title {
+    font-size: 10.5pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    padding-bottom: 1px;
+}
+
+ul {
+    margin: 0 0 4px 0;
+    padding-left: 18px;
+}
+
+li {
+    font-size: 9.5pt;
+    margin-bottom: 1px;
+}
+
+.skills-entry {
+    margin-bottom: 3px;
+    font-size: 9.5pt;
+}
+
+.bold-label {
+    font-weight: bold;
+}
+
+.edu-details {
+    font-size: 9.5pt;
+    margin-bottom: 2px;
+}
+
+@media print {
+    body {
+        padding: 0;
+        width: 100%;
+    }
+}
