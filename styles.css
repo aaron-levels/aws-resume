@@ -39,6 +39,22 @@ h1 {
     padding-bottom: 1px;
 }
 
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 9.5pt;
+    margin-top: 6px;
+}
+
+.item-sub {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 9.5pt;
+    margin-bottom: 3px;
+}
+
 ul {
     margin: 0 0 4px 0;
     padding-left: 18px;
